@@ -3,7 +3,7 @@
 É uma linguagem de marcação que tem as seguintes responsabilidades:
 
 - Conteúdo; 
-- Semântico (tags de forma correta) - Demarca o que é cada conteudo
+- Semântico (tags de forma correta) - Demarca o que é cada conteudo;
 - Estrutura
 
 
