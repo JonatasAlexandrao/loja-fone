@@ -38,6 +38,27 @@ O css é uma linguagem de estilos, isso quer dizer que ela tem as seguintes resp
 Os navegadores tem padrões proprios de comportamento para as tags HTML por causa disso a página pode aparecer de forma diferente em cada navegador. Para resolver isso você cria um arquivo css com um padrão de reset que vai deixar as tags todas com um mesmo padrao, assim a página aparece igual em todos os navegadores. 
 *** Lembrando que a chamada do reset sempre deve vir primeiro que os outros arquivos css, se não ele vai sobrescrever o código.
 
+# Propriedades CSS
+
+CORES:
+- `color`:              muda cor do texto;
+- `background-color`:   muda cor do fundo;
+
+TEXTO:
+- `font-size`:          tamanho da fonte;
+- `font-family`:        escolhe qual fonte será usada;
+- `text-decoration`:    remove ou coloca grifados e outras decorações de texto;
+
+# POSICIONAMENTO com CSS
+
+- `float`:              (flutuador, flutuar) ela tem dois valores `left` e `right`. 
+    - Ele cria um novo contexto (passa a ocupar um espaço a frente como uma camada). 
+    - Ele nunca vai esconder um conteúdo (ele ira empurar o texto paro o lado). 
+    - Ele passa a definir a largura e a altura pelo tamanho do conteudo.
+    - O pai vai ignorar a tag com float, dessa forma o tamanho do pai não vai mais seguir o tamanho desse filho.
+
+- `overflow`: hidden      (recalcula o contexto - hidden é escondido) se você tiver uma largura e uma altura definida, os elementos filhos q forem maior ficaram escondidos, não sairão de dentro do elemento pai.
+    -  se você usar essa propriedade com os elementos filhos usando float ele vai ver q não tem nem um elemento no contexto comum e vai usar o contexto do float para recalcular os tamanhos.
 
 
 
