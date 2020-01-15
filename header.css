@@ -3,6 +3,23 @@ header {
     background-color: #e24647;
     color: #ffffff;
     overflow: hidden;
+
+    /*respiro externo*/
+    margin: 0 115px;
+
+    /*respiro interno*/
+    /*padding: 50px 60px 95px 60px;*/
+
+    /*padding: top/bottom right/left;
+    padding: 55px 60px;*/
+
+    /*padding: top right/left bottom;*/
+    padding: 55px 60px 95px;
+
+    /*padding: top/bottom/right/left;
+    padding: 55px;*/
+
+    
     
 }
 

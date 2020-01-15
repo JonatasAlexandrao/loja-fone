@@ -61,5 +61,13 @@ TEXTO:
     -  se você usar essa propriedade com os elementos filhos usando float ele vai ver q não tem nem um elemento no contexto comum e vai usar o contexto do float para recalcular os tamanhos.
 
 
+# Unidades de medida CSS
+
+
+# Design
+
+- Respiro: é o espaço que se dá de um elemento ou outro, podendo ser externo ou interno.
+
+
 
 
