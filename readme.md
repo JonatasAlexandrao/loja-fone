@@ -32,6 +32,7 @@ TAGS DE ESTRUTURA:
 O css é uma linguagem de estilos, isso quer dizer que ela tem as seguintes responsabilidades:
 
 - Visual
+- Posicionamento
 
 # Reset CSS
 
@@ -51,17 +52,44 @@ TEXTO:
 
 # POSICIONAMENTO com CSS
 
-- `float`:              (flutuador, flutuar) ela tem dois valores `left` e `right`. 
+- `float`: (flutuador, flutuar) ela tem dois valores `left` e `right`. 
     - Ele cria um novo contexto (passa a ocupar um espaço a frente como uma camada). 
     - Ele nunca vai esconder um conteúdo (ele ira empurar o texto paro o lado). 
     - Ele passa a definir a largura e a altura pelo tamanho do conteudo.
     - O pai vai ignorar a tag com float, dessa forma o tamanho do pai não vai mais seguir o tamanho desse filho.
 
-- `overflow`: hidden      (recalcula o contexto - hidden é escondido) se você tiver uma largura e uma altura definida, os elementos filhos q forem maior ficaram escondidos, não sairão de dentro do elemento pai.
+- `overflow`:  hidden  (recalcula o contexto - hidden é escondido) se você tiver uma largura e uma altura definida, os elementos filhos q forem maior ficaram escondidos, não sairão de dentro do elemento pai.
     -  se você usar essa propriedade com os elementos filhos usando float ele vai ver q não tem nem um elemento no contexto comum e vai usar o contexto do float para recalcular os tamanhos.
+
+- `padding`:  "respiro interno", ele é responsavel por dar um espaço das bordas do elemento pai, para não ficar grudado com ele.
+    - padding pod ser usado individualmente: 
+    ```
+    padding-top: 50px; 
+    padding-right: 50px; 
+    padding-botton: 50px; 
+    padding-left: 50px;
+    ```
+    - formas resumidas:
+    ```
+    padding: 50px 60px 95px 60px;
+
+    padding: top/bottom right/left;
+    padding: 55px 60px;
+
+    padding: top right/left bottom;
+    padding: 55px 60px 95px;
+
+    padding: top/bottom/right/left;
+    padding: 55px; 
+    ```
+
+- `margin`:  "respiro externo", é responsavel pelo espaço entre um elemento e outro, a distancia q um elemento fica um do outro.
+    - tem todas as caracteristicas do padding.
 
 
 # Unidades de medida CSS
+
+- `px`: pixel;
 
 
 # Design
