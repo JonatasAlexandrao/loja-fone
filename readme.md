@@ -22,9 +22,10 @@
 - `<link rel="stylesheet" href="">`: linka o arquivo css oa seu html
 - `<title>`:            é o titulo do site q aparece na aba do navegador
 
-TAGS DE ESTRUTURA:
+<b>TAGS DE ESTRUTURA:</b>
 - `<nav>`:              navegação - menus
 - `<header>`:           cabeçalho da pagina
+- `<div>`:              é uma tag visual, deve se dar preferencia para coisas visuais, como uma divisão de página.
 
 
 # CSS
@@ -43,18 +44,18 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 
 - `clear`: right        limpa a linha a direita, como uma quebra de linha.
 
-Display:
+<b>Display:</b>
 
 - `display: inline`:   deixa elementos na mesma linha. As propriedade width e heigth não funcionam em display inline. 
 - `display: block`:    não deixa os elementos na mesma linha. Permite definir width e height.
 - `display: inline-block`: permite elementos na mesma linha e deixa ser definido width e height. 
 
 
-CORES:
+<b>CORES:</b>
 - `color`:              muda cor do texto;
 - `background-color`:   muda cor do fundo;
 
-TEXTO:
+<b>TEXTO:</b>
 - `font-size`:          tamanho da fonte;
 - `font-family`:        escolhe qual fonte será usada;
 - `text-decoration`:    remove ou coloca grifados e outras decorações de texto;
@@ -97,16 +98,28 @@ TEXTO:
 - `margin`:  "respiro externo", é responsavel pelo espaço entre um elemento e outro, a distancia q um elemento fica um do outro.
     - tem todas as caracteristicas do padding.
 
+- `top` e `bottom`: empurram o elemento para cima / baixo com relação a página. Mexem com o eixo X.
+
+- `left` e `right`: empurram o elemento para esquerda / direita com relação a página. Mexem com o eixo Y.
+
+- `transform: translate(-50%)`: ele move a posição do elemento, como se mudasse o eixo do elemento, normalmente com o -50%, para o centro dele.
+
+<b>POSITION:</b>
+
+- `position: absolute`: Ele cria um novo contexto(como se fosse uma camada). O conteúdo passa a definir o tamanho da largura e altura. O `top bottom left right` movem em relação a página.
+
 # Seletores de tag
 
 - `id`: são unicos, não pode ter outro elemento com o mesmo id. Usar id somente se for mesmo necessario.
 
 - `class`: pode ser usada varias vezes para replicar as propriedades do css para varias tags. Sempre usar class.
+    - Pode se por mais de uma class por tag. Ex.: `class="classe1 classe2"`. No css você pode chamalas separadamente.
 
 
 # Unidades de medida CSS
 
-- `px`: pixel;
+- `px`: pixel (unidade absoluta);
+- `%`: porcentagem(unidade dinâmica);
 
 
 # Design

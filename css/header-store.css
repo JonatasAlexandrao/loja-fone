@@ -1,20 +1,13 @@
 
-header {
-    background-color: #e24647;
+.header-store {
     color: #ffffff;
     overflow: hidden;
-
-
     /*respiro externo*/
-    margin: 0 115px;
-
-    /*respiro interno*/
-    padding: 55px 60px 95px;
-    
-     
+    /* margin: 0 115px; */
+ 
 }
 
-h1 {
+.title {
     font-size: 40px;
     font-family: Arial, 'Roboto', sans-serif;
     float: left;
@@ -22,14 +15,14 @@ h1 {
     
 }
 
-nav{
+.navigation{
     font-size: 21px;
     font-family: 'Segoe UI', 'Roboto', sans-serif;
     float: right;
   
 }
 
-a {
+.action {
     text-decoration: none;    
     color: inherit; /* herdar - obriga a herdar do pai */ 
     
