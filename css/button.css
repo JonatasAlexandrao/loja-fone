@@ -1,0 +1,16 @@
+.button {
+    font-size: 20px;
+    font-family: Arial, 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+
+    margin-right: 0;   
+
+    width: 200px;
+    height: 60px;
+    background: #252c41;
+
+    display: inline-block;
+
+}

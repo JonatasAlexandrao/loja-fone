@@ -41,6 +41,15 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 
 # Propriedades CSS
 
+- `clear`: right        limpa a linha a direita, como uma quebra de linha.
+
+Display:
+
+- `display: inline`:   deixa elementos na mesma linha. As propriedade width e heigth não funcionam em display inline. 
+- `display: block`:    não deixa os elementos na mesma linha. Permite definir width e height.
+- `display: inline-block`: permite elementos na mesma linha e deixa ser definido width e height. 
+
+
 CORES:
 - `color`:              muda cor do texto;
 - `background-color`:   muda cor do fundo;
@@ -49,6 +58,8 @@ TEXTO:
 - `font-size`:          tamanho da fonte;
 - `font-family`:        escolhe qual fonte será usada;
 - `text-decoration`:    remove ou coloca grifados e outras decorações de texto;
+- `text-align`:         alinhamento do texto (right, center...);
+- `line-height`:        para alinhar verticamente o texto dentro de uma caixa. Só funciona se for uma unica linha, se o texto não for maior que a largura da caixa. Deve se repetir o valor do height da caixa.
 
 # POSICIONAMENTO com CSS
 
@@ -86,6 +97,12 @@ TEXTO:
 - `margin`:  "respiro externo", é responsavel pelo espaço entre um elemento e outro, a distancia q um elemento fica um do outro.
     - tem todas as caracteristicas do padding.
 
+# Seletores de tag
+
+- `id`: são unicos, não pode ter outro elemento com o mesmo id. Usar id somente se for mesmo necessario.
+
+- `class`: pode ser usada varias vezes para replicar as propriedades do css para varias tags. Sempre usar class.
+
 
 # Unidades de medida CSS
 
@@ -95,6 +112,8 @@ TEXTO:
 # Design
 
 - Respiro: é o espaço que se dá de um elemento ou outro, podendo ser externo ou interno.
+
+
 
 
 

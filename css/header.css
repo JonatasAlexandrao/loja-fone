@@ -10,7 +10,6 @@ header {
 
     /*respiro interno*/
     padding: 55px 60px 95px;
-
     
      
 }
@@ -37,15 +36,12 @@ a {
     margin-right: 60px;
 }
 
-button {
-    font-size: 20px;
-    font-family: Arial, 'Roboto', sans-serif;
-    color: #ffffff;
-    
-
-    width: 200px;
-    height: 60px;
-    background: #252c41;
-
+.last {
+    margin-right: 0;
 }
+
+
+
+
+
 
