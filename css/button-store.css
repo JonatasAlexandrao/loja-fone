@@ -3,16 +3,25 @@
     font-family: Arial, 'Roboto', sans-serif;
     color: #ffffff;
     text-align: center;
+    text-decoration: none; 
     line-height: 60px;
 
+    display: inline-block;
     margin-right: 0;   
 
     width: 200px;
     height: 60px;
     background: #252c41;
 
-    display: inline-block;
+    box-sizing: border-box;
 
+}
+
+.button-store-second {
+    background-color: transparent; 
+    border: 2px solid #ffffff;
+
+    line-height: 56px;
     text-decoration: none; 
 
 }
