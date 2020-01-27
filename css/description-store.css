@@ -1,0 +1,34 @@
+.description {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.description.-title {
+    font-size: 25px;
+    
+}
+
+
+.description.-info {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.description.-text {
+    font-size: 18px;
+    
+}
+
+.description.-more {
+    font-size: 18px;    
+}
+
+.description.-more a {
+    text-decoration: none;
+    color: #ffffff;    
+}
+
+.description.-button {
+    display: inline-block;
+        
+}

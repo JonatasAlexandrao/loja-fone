@@ -15,13 +15,18 @@
 
     box-sizing: border-box;
 
+    border-style: none;
+    
+    
+
 }
 
-.button-store-second {
+.button-store.-second {
     background-color: transparent; 
     border: 2px solid #ffffff;
 
     line-height: 56px;
-    text-decoration: none; 
+     
+    padding: 0;
 
 }
