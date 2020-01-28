@@ -1,21 +1,33 @@
-.description {
+.description-product {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+
 }
 
-.description.-title {
+.description-product .title {
     font-size: 25px;
-    
+    padding-bottom: 100px;
+    padding-top: 155px;
 }
+
+
+
+
+
+
 
 
 .description.-info {
     font-size: 20px;
     text-transform: uppercase;
+    padding: 13px 13px 13px 0;
 }
 
 .description.-text {
     font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 30px;
+    line-height: 35px;
     
 }
 
@@ -30,5 +42,6 @@
 
 .description.-button {
     display: inline-block;
-        
+    padding-top: 100px;
+    padding-right: 40px;       
 }
