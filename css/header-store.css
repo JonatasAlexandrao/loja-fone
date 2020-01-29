@@ -4,6 +4,8 @@
     overflow: hidden;
     /*respiro externo*/
     /* margin: 0 115px; */
+    margin-bottom: 138px;
+    padding: 60px;
  
 }
 
@@ -11,6 +13,7 @@
     font-size: 40px;
     font-family: Arial, 'Roboto', sans-serif;
     float: left;
+    text-transform: uppercase;
 
     
 }
