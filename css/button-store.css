@@ -15,9 +15,13 @@
     background: #252c41;
 
     box-sizing: border-box;
-
     border-style: none;
+}
 
+/*Deasafio 007*/
+.buttons > .button-store:hover {
+background-color: #fff;
+color: #252c41;
 }
 
 .button-store.-second {
@@ -28,6 +32,15 @@
     line-height: 56px;
     margin-right: 38px;
 
+    /*desafio 007*/
+    cursor: pointer;
+
+}
+
+/*Deasafio 007*/
+.buttons > .button-store.-second:hover {
+    background-color: #fff;
+    color:#e24647;
 }
 
 .button-store > button, 
