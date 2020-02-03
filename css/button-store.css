@@ -16,13 +16,24 @@
 
     box-sizing: border-box;
     border-style: none;
+
+    /*desafio 007*/
+    cursor: pointer;
+    transition: all 300ms linear;
 }
 
 /*Deasafio 007*/
-.buttons > .button-store:hover {
+.buttons > .button-store:hover,
+.buttons > .button-store:focus{
+
 background-color: #fff;
 color: #252c41;
 }
+
+.buttons > .button-store:active {
+    transform: scale(0.9);
+}
+
 
 .button-store.-second {
     background-color: transparent; 
@@ -30,15 +41,13 @@ color: #252c41;
     width: 218px;
 
     line-height: 56px;
-    margin-right: 38px;
-
-    /*desafio 007*/
-    cursor: pointer;
+    margin-right: 38px;   
 
 }
 
 /*Deasafio 007*/
-.buttons > .button-store.-second:hover {
+.buttons > .button-store.-second:hover
+.buttons > .button-store.-second:focus {
     background-color: #fff;
     color:#e24647;
 }

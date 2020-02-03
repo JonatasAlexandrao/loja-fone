@@ -16,10 +16,11 @@
 
 /*desafio 007*/
 .description-product > .item.-heart {
-    float: left;
-    position: absolute;
-    left: 0;
-    transform: translateX( calc(-100% - 48px));
+
+    position: absolute;   
+    /* transform: translateX( calc(-100% - 48px)); */
+    transform: translateX(-100%);
+    left: -48px;  
     top: 12px;
 }
 
