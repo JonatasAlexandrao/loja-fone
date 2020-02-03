@@ -15,7 +15,6 @@
     float: left;
     text-transform: uppercase;
 
-    /*desafio 007*/
     cursor: pointer;
 
     
@@ -48,6 +47,15 @@
     color: inherit; /* herdar - obriga a herdar do pai */ 
     
     margin-right: 60px;
+    
+    
+}
+
+/*Desafio 008 - não funcionou*/
+.header-store .action:hover {
+    border-bottom: 1px solid #fff;
+    transition: all 5s linear;
+    
 }
 
 .header-store .action.-last {
