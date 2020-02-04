@@ -38,6 +38,8 @@
     width: 358px;
     margin-right: 65px;
 
+    vertical-align:bottom;
+
 }
 
 
@@ -47,19 +49,42 @@
     color: inherit; /* herdar - obriga a herdar do pai */ 
     
     margin-right: 60px;
+    padding-bottom: 8px;
+    display: inline-block;
+    position: relative;
     
     
 }
 
-/*Desafio 008 - não funcionou*/
+
 .header-store .action:hover {
-    border-bottom: 1px solid #fff;
-    transition: all 5s linear;
-    
+    /* border-bottom-color: #fff;      */
 }
 
 .header-store .action.-last {
     margin-right: 0;
+}
+
+
+/*Desafio 008*/
+.header-store .action:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    
+    transform: scaleX(0);
+    transition: transform 200ms linear;
+    transform-origin: center left;
+}
+
+.header-store .action:hover:after {
+opacity: 1;
+transform: scaleX(1);
 }
 
 
