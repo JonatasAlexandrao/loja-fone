@@ -12,3 +12,20 @@
  transform: translateY( calc(100% + 98px) ); 
 
 }
+/*desafio10*/
+@media (max-width:1310px) {
+    .wrap-product{ 
+      width: 100%;
+    }
+
+    .wrap-product > .buttons {
+        position: static;
+        width: 100%;
+        /* min-width: 655px; */
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        transform: none;
+    }
+}
+

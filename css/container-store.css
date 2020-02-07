@@ -26,6 +26,13 @@
     }
 }
 
+/*desafio 10*/
+@media (max-width: 1310px) {
+    .container-store {
+        padding-right: 0px;
+    }
+}
+
 @media (max-height: 952px) {
     .container-store {
         max-width: 1330px;
@@ -35,15 +42,5 @@
 
 }
 
-@media (max-width: 955px) { 
-    .container-store {
-        padding-right: 30px;
-    }
 
-}
 
-@media (max-width: 375px) {
-    .container-store {
-        padding-right: 16px;
-    }
-}
