@@ -15,9 +15,7 @@
 
 @media (max-width:1325px) {
   .photo-product{ 
-    margin-right: 140px;
-    border-radius: 0;
-    text-align: center;
+    margin-right: 140px;      
   }
 }
 
@@ -26,6 +24,8 @@
     display: block;
     margin-right: 0;
     margin-bottom: 30px;
+    border-radius: 0;
+    text-align: center;
   }
 }
 
