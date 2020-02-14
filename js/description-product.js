@@ -12,5 +12,14 @@ const $heart = window.document.querySelector(".-heart");
 $heart.addEventListener("click" , handleClick);
 
 function handleClick() {
-    console.log("ae");
+    $heart.classList.toggle("-active");
+}
+
+
+const $star = document.querySelector(".-star");
+
+$star.addEventListener("click", handleClickStar);
+
+function handleClickStar(){
+    $star.classList.toggle("-active");
 }

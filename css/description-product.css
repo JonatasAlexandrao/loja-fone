@@ -26,6 +26,12 @@
     cursor: pointer;
 }
 
+.description-product > .item.-active {
+    background-color: #252c41;
+    /*desafio 14*/
+    width: 36px;
+    height: 29px;
+}
 
 .description-product > .item.-info {
     width: 200px;
@@ -43,17 +49,31 @@
 
 .description-product .icon {
     cursor: pointer;
-    transition: transform 100ms linear;
+    transition: transform 50ms linear;
 }
 
-/*Desafio 008*/
 .description-product .icon:hover {
-    transform: scale(1.2);    
+    transform: scale(1.1);    
 }
+
+/*desafio 14*/
+.description-product .icon.-active {
+    display: none;
+}
+
+.description-product > .item.-active .icon {
+    display: none;
+}
+.description-product > .item.-active .icon.-active {
+    display: block;
+}
+
+
 
 .description-product > .item.-star + .item {
     margin-left: 7px;
 }
+
 
 
 .description-product .contrast {
@@ -78,7 +98,6 @@
     color: #ffffff;    
 }
 
-/*desafio10*/
 @media (max-width: 1310px) {
     .description-product {
         width: 50%;
