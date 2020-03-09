@@ -27,27 +27,6 @@
   
 }
 
-.header-store input[type="search"] {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: inherit;
-    font-family: Arial, 'Roboto', sans-serif;
-    font-size: 20px;
-    padding: 8px;
-    width: 358px;
-    margin-right: 65px;
-
-    vertical-align:bottom;
-
-}
-
-.header-store [type="search"] ::placeholder {
-    color: inherit;
-}
-
-
-
 .header-store .action {
     text-decoration: none;    
     color: inherit; /* herdar - obriga a herdar do pai */ 
@@ -120,9 +99,7 @@ transform: scaleX(1);
         padding-left: 30px;
         padding-right: 30px;
     }
-    .header-store [type="search"] {
-        display: none;
-    }
+    
 
 }
 
@@ -150,7 +127,7 @@ transform: scaleX(1);
 }
 
 @media (max-width: 335px) {
-    .header-store > .navigation {
+    .header-store .action {
         display: none;
     }
 }
